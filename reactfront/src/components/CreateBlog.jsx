@@ -14,7 +14,7 @@ export const CreateBlog = () => {
     const [municipioSelected, setMunicipioSelected] = useState('')
     const [selectedEntidad, setSelectedEntidad] = useState(null)
 
-    const navigate = useNavigate();
+    const navigate = useNavigate()
 
     // Procedimiento guardar
     const store = async (e) => {
